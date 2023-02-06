@@ -1,7 +1,10 @@
 package HWsem1;
 
 public class Find {
-    
+    /**
+     * Найти такой индекс в массиве, что сумма элементов слева и справа равны.
+     * [1, 2, 5, 7, 12, 5, 3, 7] -> 4
+     */
     public static int findCenter(int[] array) {
         if (array == null || array.length <= 2) {
             throw new IllegalArgumentException("Array must contain at least 3 elements");
