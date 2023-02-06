@@ -4,7 +4,7 @@ public class Find {
     
     public static int findCenter(int[] array) {
         if (array == null || array.length <= 2) {
-            throw new IllegalArgumentException("Array must contain at least 3 elements");
+            throw new IllegalArgumentException("Array must contains at least 3 elements");
         }
         for (int i = 1; i < array.length - 1; i++) {
             int sum1 = 0;
