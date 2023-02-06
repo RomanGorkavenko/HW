@@ -30,6 +30,6 @@ public class Find {
 
     public static void main(String[] args) {
         int[] array = {1, 2, 5, 7, 12, 5, 3, 7};
-        System.out.println(findCenter(array));
+        System.out.println("Индекс = " + findCenter(array));
     }
 }
